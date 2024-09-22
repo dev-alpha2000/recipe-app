@@ -32,3 +32,20 @@ bash
 Copy code
 npm start
 The app will be available at http://localhost:3000.
+
+Usage
+Search for Recipes: Use the search bar to enter ingredients or recipe names to find recipes.
+View Recipe Details: Click on a recipe card to view detailed information, including ingredients, steps, and nutrition facts.
+Save Favorites: (Optional) Save your favorite recipes to view them later. These favorites can be stored in local storage.
+Error Handling: If the API request fails, an error message will be displayed.
+Example
+When you open the app:
+
+A search bar allows you to enter ingredients or recipe names to search for recipes.
+The app displays a list of matching recipes with images and brief descriptions.
+Clicking on a recipe provides more detailed information, including a list of ingredients, preparation steps, and nutritional information.
+Dependencies
+React: Frontend framework for building the UI.
+Axios: For making API requests to the recipe data provider.
+dotenv (Optional): To manage environment variables for securely storing the API key.
+React Router: For routing between the recipe search and recipe details pages.
